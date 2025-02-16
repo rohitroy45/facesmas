@@ -1,0 +1,51 @@
+header{
+    background-color: blue;
+   
+
+}
+html{
+    background-image: -moz-linear-gradient();
+    background-color: antiquewhite;
+}
+h1{
+    position: relative;
+    text-align: left;
+    background-color:white;
+    width: 170px;
+    text-decoration:dotted;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+}
+footer{
+    text-align: center;
+    background-color: #333;
+    color:#fff;
+    clear:both;
+    position: fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    z-index:997;
+}
+.grid-container{
+    display: grid;
+    grid-template-row:100px,200px;
+    grid-template-column:300px,200px;
+    background-color: aqua;
+}
+p{
+    font-size: 24px;
+}
+.logo{
+    width: 6%;
+    height: 6%;
+}
+.search_input{
+    width:200px;
+    border-radius: 14px;
+    padding: 6px;
+    position-area: right;
+}
+
